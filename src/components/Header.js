@@ -15,8 +15,8 @@ const Header = () => {
         <header className="text-white top-0 left-0 right-0 fixed z-50 bg-[#0C2340]">
             <div className="container mx-auto px-3 py-3 flex justify-between items-center">
                 <Link to="/" className="flex items-center">
-                    <img src={logo} alt="R.E.E.S- Realestate Enhancement about Logo" className="h-12 w-12 mr-2 rounded-md" />
-                    <span className="text-2xl font-bold drop-shadow-md">Club Name</span>
+                    <img src={logo} alt="logo" className="h-12 w-12 mr-2 rounded-md" />
+                    <span className="text-2xl font-bold drop-shadow-md">Interlake History Club</span>
                 </Link>
                 <nav className="hidden md:flex space-x-4">
                     <Link to="/" className={`hover:underline ${location.pathname === '/' && 'underline drop-shadow-md'}`} style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>Home</Link>

@@ -1,8 +1,7 @@
 import React from 'react';
-import { FaPhoneAlt, FaMapMarkerAlt, FaEnvelope, FaShare, FaCalendarAlt } from 'react-icons/fa';
+import {FaEnvelope, FaCalendarAlt } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 import headerimg from '../assets/headerimg.jpg';
-import { CiShare2 } from 'react-icons/ci';
 import { FaShareNodes } from 'react-icons/fa6';
 
 const Contact = () => {
@@ -22,7 +21,7 @@ const Contact = () => {
         console.error('Error sharing:', error);
       }
     } else {
-      alert('Web Share API is not supported in your browser.');
+      alert('Doesnt work on this browser');
     }
   };
 
@@ -66,7 +65,7 @@ const Contact = () => {
           </motion.div>
           <div className="flex items-center space-x-2">
             <FaCalendarAlt className="text-[#0C2340]" style={{ verticalAlign: 'middle' }} />
-            <p className="text-lg font-bold">Meeting info goes here</p>
+            <p className="text-lg font-bold">Thursdays, Room ____ from 3.30-4.00</p>
           </div>
           <motion.div
             className="flex items-center space-x-2"

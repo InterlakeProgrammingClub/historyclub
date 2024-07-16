@@ -73,7 +73,7 @@ const About = () => {
       <div className="container mx-auto px-4 py-8">
         <h2 className="text-2xl font-bold mb-4 underline underline-offset-2">Our Leadership Team:</h2>
         <div className="flex flex-col items-center space-y-4 mb-8">
-          <p className="text-lg font-bold">President: Name of President</p>
+          <p className="text-lg font-bold">President: Aden George</p>
           <p className="text-lg font-bold">Vice President: Name of Vice President</p>
           <p className="text-lg font-bold">Secretary: Name of Secretary</p>
           <p className="text-lg font-bold">Treasurer: Name of Treasurer</p>
@@ -81,11 +81,11 @@ const About = () => {
         </div>
         <div className="flex flex-col items-center space-y-4 mb-4">
           <h2 className="text-2xl font-bold underline underline-offset-2">What we do:</h2>
-          <p className="text-lg">At our club, we do _______________________________.</p>
+          <p className="text-lg">At our club, we compete in history competitions.</p>
         </div>
         <div className="flex flex-col items-center space-y-4 mb-4">
           <h2 className="text-2xl font-bold underline underline-offset-2">When we meet:</h2>
-          <p className="text-lg">We meet every _______________________________.</p>
+          <p className="text-lg">We meet every thursday in room ____ from 3.30-4.00.</p>
         </div>
       </div>
       <div className="max-w-4xl mx-auto text-white px-4 pt-4 pb-10">
